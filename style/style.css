@@ -82,6 +82,16 @@ img{
     animation-name: aparecer;
     animation-iteration-count: 1;
 }
+.text_1{
+    display: flex;
+    width: 45%;
+    justify-content: flex-start;
+}
+.text_2{
+    display: flex;
+    width: 45%;
+    justify-content: flex-end;
+}
 @keyframes aparecer{
     0%  {opacity: 0;}
     50% {opacity: 1;}
